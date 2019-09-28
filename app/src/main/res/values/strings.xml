@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Users</string>
+    <string name="user_active_status">Active</string>
+    <string name="user_non_active_status">Non-active</string>
+    <string name="user_age">Age: %d</string>
+    <string name="user_company">Company: %s</string>
+    <string name="user_email">Email: %s</string>
+    <string name="user_phone">Phone: %s</string>
+    <string name="user_address">Address: %s</string>
+    <string name="user_about">About: %s</string>
+    <string name="user_eye_color">Eye color:</string>
+    <string name="user_favorite_fruit">Favorite fruit:</string>
+    <string name="user_registered">Registered: %s</string>
+    <string name="user_coordinates">Coordinates: %s\u00B0, %s\u00B0</string>
+</resources>

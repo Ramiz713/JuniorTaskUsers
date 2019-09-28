@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="UsersAppTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="UserDetailsTextView" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+</resources>

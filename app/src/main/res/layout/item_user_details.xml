@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/user_age" />
+
+    <TextView
+        android:id="@+id/textViewCompany"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/user_company" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:textSize="16sp"
+        tools:text="@string/user_email" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:textSize="16sp"
+        tools:text="@string/user_phone" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/user_address" />
+
+    <TextView
+        android:id="@+id/textViewEyeColor"
+        style="@style/UserDetailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_dot_brown_24dp"
+        android:drawablePadding="4dp"
+        android:text="@string/user_eye_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewFavoriteFruit"
+        style="@style/UserDetailsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_apple"
+        android:drawablePadding="4dp"
+        android:text="@string/user_favorite_fruit"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewRegistered"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/user_registered" />
+
+    <TextView
+        android:id="@+id/textViewCoordinates"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:textSize="16sp"
+        tools:text="@string/user_coordinates" />
+
+    <TextView
+        android:id="@+id/textViewAbout"
+        style="@style/UserDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/user_about" />
+
+</LinearLayout>
