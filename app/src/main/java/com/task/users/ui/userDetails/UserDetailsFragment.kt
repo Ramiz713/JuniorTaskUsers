@@ -13,9 +13,6 @@ import com.task.users.ui.adapter.UserAdapter
 import com.task.users.ui.base.BaseFragment
 import kotlinx.android.synthetic.main.fragment_user_list.*
 import javax.inject.Inject
-import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.fragment_user_details.*
-import kotlinx.android.synthetic.main.fragment_user_list.recyclerViewUsers
 
 class UserDetailsFragment : BaseFragment() {
 

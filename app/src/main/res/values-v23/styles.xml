@@ -10,7 +10,7 @@
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <style name="UserDetailsTextView" parent="@style/Widget.AppCompat.TextView">
+    <style name="UsersAppTextView.Details" parent="@style/Widget.AppCompat.TextView">
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
         <item name="android:textColor">@color/colorText</item>

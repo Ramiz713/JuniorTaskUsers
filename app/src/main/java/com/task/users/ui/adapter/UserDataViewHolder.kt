@@ -95,7 +95,7 @@ sealed class UserDataViewHolder(override val containerView: View) :
                         user.longitude.toString()
                     )
 
-                setEyeColorDrawable(user.eyeColor)
+                setEyeColor(user.eyeColor)
                 setFavoriteFruit(user.favoriteFruit)
                 initClickListeners(this, user)
             }
@@ -109,11 +109,11 @@ sealed class UserDataViewHolder(override val containerView: View) :
             textViewFavoriteFruit.setCompoundDrawablesWithIntrinsicBounds(0, 0, drawable, 0)
         }
 
-        private fun setEyeColorDrawable(eyeColor: EyeColor) {
+        private fun setEyeColor(eyeColor: EyeColor) {
             val drawable = when (eyeColor) {
-                EyeColor.BROWN -> R.drawable.ic_dot_brown_24dp
-                EyeColor.GREEN -> R.drawable.ic_dot_green_24dp
-                EyeColor.BLUE -> R.drawable.ic_dot_blue_24dp
+                EyeColor.BROWN -> R.drawable.ic_dot_brown
+                EyeColor.GREEN -> R.drawable.ic_dot_green
+                EyeColor.BLUE -> R.drawable.ic_dot_blue
             }
             textViewEyeColor.setCompoundDrawablesWithIntrinsicBounds(0, 0, drawable, 0)
         }

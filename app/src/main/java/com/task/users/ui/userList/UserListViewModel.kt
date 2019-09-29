@@ -34,7 +34,7 @@ class UserListViewModel @Inject constructor(private val userRepository: UserRepo
 
     fun getUsers(): LiveData<List<UserDataItem.UserItem>> = users
 
-    fun userItemClicked(id:Int) {
+    fun userItemClicked(id: Int) {
         openUserDetailsEvent.value = id
     }
 

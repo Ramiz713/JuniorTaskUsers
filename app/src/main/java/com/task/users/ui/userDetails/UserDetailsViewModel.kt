@@ -16,6 +16,7 @@ class UserDetailsViewModel @Inject constructor(private val userRepository: UserR
 
     private lateinit var userDetails: UserDataItem.UserDetailsItem
     private var userDataItems = MutableLiveData<List<UserDataItem>>()
+
     fun getUserDataItems() = userDataItems
 
     fun userFriendClicked(id: Int) {

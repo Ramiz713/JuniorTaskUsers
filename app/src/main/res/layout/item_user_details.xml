@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/textViewName"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
@@ -16,7 +16,7 @@
 
     <TextView
         android:id="@+id/textViewAge"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
@@ -24,7 +24,7 @@
 
     <TextView
         android:id="@+id/textViewCompany"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
@@ -32,7 +32,7 @@
 
     <TextView
         android:id="@+id/textViewEmail"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?selectableItemBackground"
@@ -41,7 +41,7 @@
 
     <TextView
         android:id="@+id/textViewPhone"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?selectableItemBackground"
@@ -50,7 +50,7 @@
 
     <TextView
         android:id="@+id/textViewAddress"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
@@ -58,17 +58,17 @@
 
     <TextView
         android:id="@+id/textViewEyeColor"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableEnd="@drawable/ic_dot_brown_24dp"
+        android:drawableEnd="@drawable/ic_dot_brown"
         android:drawablePadding="4dp"
         android:text="@string/user_eye_color"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textViewFavoriteFruit"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_apple"
@@ -78,7 +78,7 @@
 
     <TextView
         android:id="@+id/textViewRegistered"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
@@ -86,7 +86,7 @@
 
     <TextView
         android:id="@+id/textViewCoordinates"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?selectableItemBackground"
@@ -95,7 +95,7 @@
 
     <TextView
         android:id="@+id/textViewAbout"
-        style="@style/UserDetailsTextView"
+        style="@style/UsersAppTextView.Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
