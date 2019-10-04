@@ -33,9 +33,9 @@ class UserDetailsFragment : BaseFragment() {
     ): View? = inflater.inflate(R.layout.fragment_user_details, container, false)
 
     override fun initObservers() {
+        initRecycler()
         observeUsers()
         observeOpenUserDetails()
-        initRecycler()
     }
 
     private fun observeUsers() =

@@ -4,14 +4,9 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
-import javax.inject.Inject
 
 abstract class BaseFragment : Fragment() {
-
-    @Inject
-    protected lateinit var viewModelFactory: ViewModelProvider.Factory
 
     protected abstract val viewModel: BaseViewModel
 

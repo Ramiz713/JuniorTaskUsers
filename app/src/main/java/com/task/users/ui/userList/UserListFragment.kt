@@ -31,10 +31,10 @@ class UserListFragment : BaseFragment() {
     ): View? = inflater.inflate(R.layout.fragment_user_list, container, false)
 
     override fun initObservers() {
+        initRecycler()
         observeLoading(swipeRefresh)
         observeUsers()
         observeOpenUserDetails()
-        initRecycler()
         swipeRefresh.setOnRefreshListener { viewModel.loadUsers() }
     }
 
